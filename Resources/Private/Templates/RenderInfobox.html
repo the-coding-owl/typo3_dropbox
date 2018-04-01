@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+  ~ This file is part of typo3-dropbox.
+  ~
+  ~ typo3-dropbox is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ typo3-dropbox is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with typo3-dropbox.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+      data-namespace-typo3-fluid="true">
+    <f:layout />
+    <f:section name="main">
+        <ol>
+            <li>
+                <f:translate key="create-app">Follow the link to create a Dropbox app in your Dropbox Developer account section</f:translate>
+            </li>
+            <li>
+                <f:link.external uri="https://www.dropbox.com/developers/apps">https://www.dropbox.com/developers/apps</f:link.external>
+            </li>
+            <li>
+                <f:translate key="enter-key-and-secret">Enter the generated app key and app secret in the fields below and click connect</f:translate>
+            </li>
+            <li>
+                <f:translate key="grant-access">Grant access</f:translate>
+            </li>
+            <li>
+                <f:translate key="generate-token">Generate an access token and enter it in the field below</f:translate>
+            </li>
+        </ol>
+    </f:section>
+</html>

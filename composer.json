@@ -1,0 +1,25 @@
+{
+    "name": "the-coding-owl/typo3-dropbox",
+    "description": "A FAL driver extension for dropbox",
+    "type": "typo3-cms-extension",
+    "require": {
+        "typo3/cms-core": "^8.7.12",
+        "kunalvarma05/dropbox-php-sdk": "^0.2.1",
+        "typo3/cms-sys-note": "^8.7.12"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheCodingOwl\\Typo3Dropbox\\": "Classes/"
+        }
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Kevin Ditscheid",
+            "email": "kevinditscheid@gmail.com"
+        }
+    ]
+}
