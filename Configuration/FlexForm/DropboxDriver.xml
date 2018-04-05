@@ -24,7 +24,7 @@
                     <label>LLL:EXT:typo3_dropbox/Resources/Private/Language/locallang_flexform.xlf:information</label>
                     <config>
                         <type>user</type>
-                        <userFunc>\TheCodingOwl\Typo3Dropbox\Controller\DropboxController->renderInfoboxAction</userFunc>
+                        <userFunc>TheCodingOwl\Typo3Dropbox\Controller\DropboxController->renderInfoboxAction</userFunc>
                     </config>
                 </TCEforms>
             </information>
