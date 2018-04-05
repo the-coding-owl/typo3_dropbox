@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a938314-c696-4789-97ca-fb727fcfbaad" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DropboxDriver.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Classes/Resource/Driver/DropboxDriver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4530">
+              <caret line="264" column="47" lean-forward="true" selection-start-line="264" selection-start-column="47" selection-end-line="264" selection-end-column="47" />
+              <folding>
+                <element signature="e#760#786#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="File.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/File.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="FolderMetadata.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FolderMetadata.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Dropbox.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Dropbox.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="537" column="20" selection-start-line="537" selection-start-column="20" selection-end-line="537" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DropboxFile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/DropboxFile.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="LocalDriver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3/sysext/core/Classes/Resource/Driver/LocalDriver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractHierarchicalFilesystemDriver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3/sysext/core/Classes/Resource/Driver/AbstractHierarchicalFilesystemDriver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1940">
+              <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractDriver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typo3/sysext/core/Classes/Resource/Driver/AbstractDriver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1240">
+              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DropboxDriver.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Configuration/FlexForm/DropboxDriver.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="110" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="T3DataStructure" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Locallang" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_call</find>
+      <find>localizeRecords</find>
+      <find>move</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Configuration/Routes/AjaxRoutes.php" />
+        <option value="$PROJECT_DIR$/Classes/Domain/Model/Dropbox.php" />
+        <option value="$PROJECT_DIR$/Classes/Domain/Repository/DropboxRepository.php" />
+        <option value="$PROJECT_DIR$/Classes/DropboxFlexform.php" />
+        <option value="$PROJECT_DIR$/ext_localconf.php" />
+        <option value="$PROJECT_DIR$/Classes/DropboxApplication.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Layouts/Default.html" />
+        <option value="$PROJECT_DIR$/Configuration/Backend/AjaxRoutes.php" />
+        <option value="$PROJECT_DIR$/Configuration/Backend/Routes.php" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/RenderConnectButton.html" />
+        <option value="$PROJECT_DIR$/Resources/Public/JavaScript/Connect.js" />
+        <option value="$PROJECT_DIR$/Classes/Controller/DropboxController.php" />
+        <option value="$PROJECT_DIR$/Configuration/FlexForm/DropboxDriver.xml" />
+        <option value="$PROJECT_DIR$/Resources/Private/Language/locallang.xlf" />
+        <option value="$PROJECT_DIR$/Resources/Private/Language/locallang_flexform.xlf" />
+        <option value="$PROJECT_DIR$/Resources/Private/Templates/RenderInfobox.html" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/Classes/Resource/Driver/DropboxDriver.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/mso/idna-convert" />
+      <path value="$PROJECT_DIR$/vendor/tightenco/collect" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/helhum/typo3-composer-setup" />
+      <path value="$PROJECT_DIR$/vendor/typo3/class-alias-loader" />
+      <path value="$PROJECT_DIR$/vendor/typo3/cms-composer-installers" />
+      <path value="$PROJECT_DIR$/vendor/cogpowered/finediff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/typo3fluid/fluid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk" />
+      <path value="$PROJECT_DIR$/vendor/typo3/cms-cli" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resource" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resource" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Driver" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Configuration" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Configuration" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Backend" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Configuration" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FlexForm" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Private" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Private" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Language" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Private" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Private" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JavaScript" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sysext" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sysext" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sysext" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sysext" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resource" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sysext" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="core" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resource" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Driver" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sysext" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fluid" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sysext" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fluid" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sysext" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fluid" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Core" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="typo3" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sysext" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="fluid" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dropbox-php-sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dropbox-php-sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dropbox-php-sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dropbox-php-sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Authentication" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dropbox-php-sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dropbox-php-sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Clients" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dropbox-php-sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dropbox-php-sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Security" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typo3-dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="kunalvarma05" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dropbox-php-sdk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dropbox" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Store" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="typo3-dropbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../the-coding-owl.de" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TYPO3Settings" version="v0.2.41" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a938314-c696-4789-97ca-fb727fcfbaad" name="Default" comment="" />
+      <created>1522440288767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522440288767</updated>
+      <workItem from="1522440290441" duration="1252000" />
+      <workItem from="1522442005670" duration="141000" />
+      <workItem from="1522442474731" duration="3509000" />
+      <workItem from="1522580025312" duration="21162000" />
+      <workItem from="1522678048792" duration="3534000" />
+    </task>
+    <task id="LOCAL-00001" summary="[INIT] Initial commit">
+      <created>1522608557651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522608557651</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[INIT] Initial commit">
+      <created>1522611454946</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522611454946</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[INIT] Initial commit">
+      <created>1522688293132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1522688293132</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29598000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49673203" visible="true" weight="0.26040554" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.503268" side_tool="true" visible="true" weight="0.26040554" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32968238" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32968238" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[INIT] Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="[INIT] Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/DropboxFile.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/DropboxApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/core/Classes/Resource/Driver/LocalDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/core/Classes/Resource/Driver/AbstractHierarchicalFilesystemDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1940">
+          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/core/Classes/Resource/Driver/AbstractDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/FlexForm/DropboxDriver.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="110" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Http/Clients/DropboxHttpClientFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Security/RandomStringGeneratorFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-994" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Store/PersistentDataStoreFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Authentication/DropboxAuthHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2160" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext_localconf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/sys_note/Classes/Controller/NoteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/sys_note/Configuration/TCA/sys_note.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1000" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/sys_note/Classes/Hook/PageHook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/sys_note/Classes/Hook/RecordListHook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="82" lean-forward="true" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/typo3fluid/fluid/src/View/AbstractTemplateView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/sys_note/Classes/Hook/InfoModuleHook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/sys_note/Classes/Core/Bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="58" column="75" lean-forward="true" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/DropboxFlexform.php" />
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/backend/Resources/Public/JavaScript/Utility.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1340" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/backend/Resources/Public/JavaScript/PageActions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/fluid/Classes/View/StandaloneView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/backend/Resources/Public/JavaScript/backend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/backend/Resources/Public/JavaScript/AjaxDataHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="248" column="20" selection-start-line="248" selection-start-column="13" selection-end-line="248" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/DropboxApplication.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/psr/http-message/src/ResponseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/backend/Classes/Controller/Page/LocalizationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="190" column="35" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/backend/Configuration/Backend/AjaxRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="233" column="86" selection-start-line="233" selection-start-column="71" selection-end-line="233" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/backend/Classes/Utility/BackendUtility.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="3708" column="41" lean-forward="true" selection-start-line="3708" selection-start-column="41" selection-end-line="3708" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/RenderConnectButton.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="158" selection-start-line="22" selection-start-column="158" selection-end-line="22" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/backend/Configuration/Backend/Routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/fileTemplates/internal/PHP Class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Public/JavaScript/Connect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Layouts/Default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/Backend/Routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/Backend/AjaxRoutes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Controller/DropboxController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#837#876#0#PHP" expanded="true" />
+            <element signature="e#1869#1891#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Language/locallang.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Language/locallang_flexform.xlf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Private/Templates/RenderInfobox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/DropboxApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration/FlexForm/DropboxDriver.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="110" selection-start-line="23" selection-start-column="99" selection-end-line="23" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/core/Classes/Resource/Driver/AbstractDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/core/Classes/Resource/Driver/LocalDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typo3/sysext/core/Classes/Resource/Driver/AbstractHierarchicalFilesystemDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1940">
+          <caret line="100" column="6" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/File.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FolderMetadata.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/DropboxFile.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Dropbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="537" column="20" selection-start-line="537" selection-start-column="20" selection-end-line="537" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Resource/Driver/DropboxDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4530">
+          <caret line="264" column="47" lean-forward="true" selection-start-line="264" selection-start-column="47" selection-end-line="264" selection-end-column="47" />
+          <folding>
+            <element signature="e#760#786#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>TYPO3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
