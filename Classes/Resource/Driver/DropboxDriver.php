@@ -397,7 +397,7 @@ class DropboxDriver extends AbstractDriver
     public function setFileContents($fileIdentifier, $contents)
     {
 
-        $this->dropbox->download($fileIdentifier)
+        $this->dropbox->download($fileIdentifier);
     }
 
     /**
