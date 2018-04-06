@@ -95,8 +95,7 @@ class DropboxDriver extends AbstractDriver
      */
     protected function canonicalizeAndCheckFileIdentifier($fileIdentifier)
     {
-        $path = $this->canonicalizeAndCheckFilePath($fileIdentifier);
-        return $this->storageUid . ':' . $path;
+        return $this->canonicalizeAndCheckFilePath($fileIdentifier);
     }
 
     /**
