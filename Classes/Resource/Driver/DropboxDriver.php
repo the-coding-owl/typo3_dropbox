@@ -599,24 +599,52 @@ class DropboxDriver extends AbstractDriver
                     'media_info' => null,
                     'sharing_info' => null
                 ]);
+            } else {
+                throw $e;
             }
         }
         $properties = [];
+        if($propertiesToExtract === []){
+            $propertiesToExtract = [
+                'size',
+                'atime',
+                'mtime',
+                'ctime',
+                'name',
+                'mimetype',
+                'identifier',
+                'storage',
+                'identifier_hash',
+                'folder_hash'
+            ];
+        }
         foreach ($propertiesToExtract as $property) {
             switch ($property) {
                 case 'size':
-                    $properties[$property] = $fileMetaData->getSize();
+                    if($fileMetaData instanceof FileMetadata){
+                        $properties[$property] = $fileMetaData->getSize();
+                    } else {
+                        $properties[$property] = 0;
+                    }
                     break;
                 case 'atime':
                 case 'mtime':
                 case 'ctime':
-                    $properties[$property] = $fileMetaData->getClientModified();
+                    if($fileMetaData instanceof FileMetadata){
+                        $properties[$property] = $fileMetaData->getClientModified();
+                    } else {
+                        $properties[$property] = 0;
+                    }
                     break;
                 case 'name':
                     $properties[$property] = $fileMetaData->getName();
                     break;
                 case 'mimetype':
-                    $properties[$property] = $fileMetaData->getId();
+                    if($fileMetaData instanceof FolderMetadata){
+                        $properties[$property] = '';
+                    } else {
+                        $properties[$property] = '';
+                    }
                     break;
                 case 'identifier':
                     $properties[$property] = $this->canonicalizeAndCheckFileIdentifier($fileIdentifier);
