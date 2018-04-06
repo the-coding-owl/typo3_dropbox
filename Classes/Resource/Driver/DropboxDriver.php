@@ -28,6 +28,7 @@ use TYPO3\CMS\Core\Resource\Driver\AbstractDriver;
 use TYPO3\CMS\Core\Resource\Exception\InsufficientFolderAccessPermissionsException;
 use TYPO3\CMS\Core\Resource\ResourceStorage;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Install\FolderStructure\Exception\InvalidArgumentException;
 
 /**
  * Class DropboxDriver
@@ -404,7 +405,17 @@ class DropboxDriver extends AbstractDriver
      */
     public function hash($fileIdentifier, $hashAlgorithm)
     {
-        // TODO: Implement hash() method.
+        switch($hashAlgorithm){
+            case 'sha1':
+                $hash = \sha1($this->canonicalizeAndCheckFilePath($fileIdentifier));
+                break;
+            case 'md5':
+                $hash = \md5($this->canonicalizeAndCheckFilePath($fileIdentifier));
+                break;
+            default:
+                throw new InvalidArgumentException("The algorithm $hashAlgorithm is not supported!");
+        }
+        return $hash;
     }
 
     /**
