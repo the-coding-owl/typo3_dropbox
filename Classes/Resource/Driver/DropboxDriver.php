@@ -168,7 +168,13 @@ class DropboxDriver extends AbstractDriver
      */
     public function getParentFolderIdentifierOfIdentifier($fileIdentifier)
     {
-        return $this->dropbox->getMetadata($this->canonicalizeAndCheckFilePath($fileIdentifier))->getPathLower();
+        $canonicalizedPath = $this->canonicalizeAndCheckFilePath($fileIdentifier);
+        if($canonicalizedPath === '/'){
+            $canonicalizedIdentifier = $this->canonicalizeAndCheckFileIdentifier('/');
+        } else {
+            $canonicalizedIdentifier = $this->canonicalizeAndCheckFileIdentifier($this->dropbox->getMetadata($canonicalizedPath)->getPathLower());
+        }
+        return $canonicalizedIdentifier;
     }
 
     /**
