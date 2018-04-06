@@ -61,7 +61,7 @@ class DropboxDriver extends AbstractDriver
         if ($filePath !== '/') {
             $pathParts = \explode('/', trim($filePath, '/'));
             $newPathParts = [];
-            for ($iterator = 0; $iterator < count($pathParts) - 1; $iterator++) {
+            for ($iterator = 0; $iterator < count($pathParts); $iterator++) {
                 switch ($pathParts[$iterator]) {
                     case '.':
                     case '':
