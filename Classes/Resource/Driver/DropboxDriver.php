@@ -170,7 +170,7 @@ class DropboxDriver extends AbstractDriver
     public function getParentFolderIdentifierOfIdentifier($fileIdentifier)
     {
         $canonicalizedPath = $this->canonicalizeAndCheckFilePath($fileIdentifier);
-        if($canonicalizedPath === '/'){
+        if ($canonicalizedPath === '/') {
             throw new InsufficientFolderAccessPermissionsException('Parent folder of root "/" not accessible!');
         } else {
             $canonicalizedIdentifier = $this->canonicalizeAndCheckFileIdentifier($this->dropbox->getMetadata($canonicalizedPath)->getPathLower());
@@ -404,7 +404,7 @@ class DropboxDriver extends AbstractDriver
      */
     public function hash($fileIdentifier, $hashAlgorithm)
     {
-        switch($hashAlgorithm){
+        switch ($hashAlgorithm) {
             case 'sha1':
                 $hash = \sha1($this->canonicalizeAndCheckFilePath($fileIdentifier));
                 break;
@@ -739,7 +739,10 @@ class DropboxDriver extends AbstractDriver
         $listedFiles = [];
         foreach ($response->getItems() as $item) {
             if ($item instanceof FileMetadata) {
-                if ($iterator >= $start && $iterator < $start + $numberOfItems) {
+                if (
+                    !$numberOfItems ||
+                    $iterator >= $start && $iterator < $start + $numberOfItems
+                ) {
                     $listedFiles[] = $this->canonicalizeAndCheckFileIdentifier($item->getPathLower());
                 }
                 $iterator++;
@@ -790,7 +793,10 @@ class DropboxDriver extends AbstractDriver
         $listedFolders = [];
         foreach ($response->getItems() as $item) {
             if ($item instanceof FolderMetadata) {
-                if ($iterator >= $start && $iterator < $start + $numberOfItems) {
+                if (
+                    !$numberOfItems ||
+                    $iterator >= $start && $iterator < $start + $numberOfItems
+                ) {
                     $listedFolders[] = $this->canonicalizeAndCheckFileIdentifier($item->getPathLower());
                 }
                 $iterator++;
