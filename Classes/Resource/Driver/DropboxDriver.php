@@ -25,6 +25,7 @@ use Kunnu\Dropbox\Exceptions\DropboxClientException;
 use Kunnu\Dropbox\Models\FileMetadata;
 use Kunnu\Dropbox\Models\FolderMetadata;
 use TYPO3\CMS\Core\Resource\Driver\AbstractDriver;
+use TYPO3\CMS\Core\Resource\Exception\InsufficientFolderAccessPermissionsException;
 use TYPO3\CMS\Core\Resource\ResourceStorage;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
@@ -170,7 +171,7 @@ class DropboxDriver extends AbstractDriver
     {
         $canonicalizedPath = $this->canonicalizeAndCheckFilePath($fileIdentifier);
         if($canonicalizedPath === '/'){
-            $canonicalizedIdentifier = $this->canonicalizeAndCheckFileIdentifier('/');
+            throw new InsufficientFolderAccessPermissionsException('Parent folder of root "/" not accessible!');
         } else {
             $canonicalizedIdentifier = $this->canonicalizeAndCheckFileIdentifier($this->dropbox->getMetadata($canonicalizedPath)->getPathLower());
         }
