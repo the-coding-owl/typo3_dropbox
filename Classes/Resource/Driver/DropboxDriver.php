@@ -724,7 +724,7 @@ class DropboxDriver extends AbstractDriver
         $sort = '',
         $sortRev = false
     ) {
-        $response = $this->dropbox->listFolder($this->canonicalizeAndCheckFolderPath($folderIdentifier));
+        $response = $this->dropbox->listFolder($this->canonicalizeAndCheckFilePath($folderIdentifier));
         $iterator = 0;
         $listedFiles = [];
         foreach ($response->getItems() as $item) {
