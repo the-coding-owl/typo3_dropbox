@@ -654,7 +654,8 @@ class DropboxDriver extends AbstractDriver
                 case 'mtime':
                 case 'ctime':
                     if ($fileMetaData instanceof FileMetadata) {
-                        $properties[$property] = \DateTime::createFromFormat('Y-m-d\TH:i:s\Z', $fileMetaData->getServerModified());
+                        $dateTime = \DateTime::createFromFormat('Y-m-d\TH:i:s\Z', $fileMetaData->getServerModified());
+                        $properties[$property] = $dateTime ? $dateTime->getTimestamp() : 0;
                     } else {
                         $properties[$property] = 0;
                     }
