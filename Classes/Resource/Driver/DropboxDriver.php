@@ -173,7 +173,12 @@ class DropboxDriver extends AbstractDriver
         if ($canonicalizedPath === '/') {
             throw new InsufficientFolderAccessPermissionsException('Parent folder of root "/" not accessible!');
         } else {
-            $canonicalizedIdentifier = $this->canonicalizeAndCheckFileIdentifier($this->dropbox->getMetadata($canonicalizedPath)->getPathLower());
+            $pathParts = \explode('/', trim($canonicalizedPath, '/'));
+            \array_pop($pathParts);
+            $canonicalizedPath = '/' . \implode('/',$pathParts);
+            if($canonicalizedPath !== '/'){
+                $canonicalizedIdentifier = $this->canonicalizeAndCheckFileIdentifier($this->dropbox->getMetadata($canonicalizedPath)->getPathLower());
+            }
         }
         return $canonicalizedIdentifier;
     }
